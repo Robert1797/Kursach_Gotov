@@ -1,0 +1,7 @@
+port.pbi: \
+  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\portable\IAR\ARM_CM4F\port.c \
+  D:\Проги\ для\ учебы\arm\inc\c\intrinsics.h \
+  D:\Проги\ для\ учебы\arm\inc\c\iccarm_builtin.h \
+  D:\Проги\ для\ учебы\arm\inc\c\yvals.h \
+  D:\Проги\ для\ учебы\arm\inc\c\DLib_Defaults.h \
+  D:\Проги\ для\ учебы\arm\inc\c\DLib_Product.h

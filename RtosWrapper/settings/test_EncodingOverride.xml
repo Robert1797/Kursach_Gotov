@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>C:\GitHub\KursovoyKarkas\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>C:\GitHub\RtosWrapper\Rtos\wrapper\thread.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>C:\Users\Студент\Desktop\Karcas\RtosWrapper\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\Cpecialno dlyf IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\ColorSensorClasses\Timer2.h</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\Cpecialno dlyf IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>D:\Cpecialno dlyf IAR\Kursach_Gotov\RtosWrapper\AHardware\ColorSensorClasses\BlueToothTask.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+</userOverrides>

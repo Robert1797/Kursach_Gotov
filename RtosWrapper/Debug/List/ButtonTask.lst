@@ -1,0 +1,401 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         22/May/2021  13:49:38
+# Copyright 1999-2019 IAR Systems AB.
+#
+#    Cpu mode     =  
+#    Endian       =  little
+#    Source file  =
+#        D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\ColorSensorClasses\ButtonTask.cpp
+#    Command line =
+#        -f C:\Users\kadyr\AppData\Local\Temp\EW86F1.tmp ("D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\ColorSensorClasses\ButtonTask.cpp"
+#        -lC "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Debug\List" -lA
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Debug\List" -o
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Debug\Obj" --no_cse
+#        --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering
+#        --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e
+#        --fpu=VFPv4_sp --dlib_config "D:\@@@@@ @@@
+#        @@@@@\arm\inc\c\DLib_Config_Normal.h" -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\" -I "D:\Cpecialno
+#        dlyf IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\wrapper\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\wrapper\FreeRtos\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\FreeRtos\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\FreeRtos\include\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\FreeRtos\portable\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\FreeRtos\portable\Common\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\FreeRtos\portable\IAR\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\FreeRtos\portable\IAR\ARM_CM4F\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Rtos\FreeRtos\portable\MemMang\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\MyTasks\" -I "D:\Cpecialno
+#        dlyf IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Common\" -I
+#        "D:\Cpecialno dlyf IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\CMSIS\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Application\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Application\Diagnostic\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\GpioPort\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\IrqController\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\..\CortexLib\AbstractHardware\Pin\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\STM32F411\FieldValues\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\STM32F411\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\..\CortexLib\AbstractHardware\Registers\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\..\CortexLib\AbstractHardware\Port\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\..\CortexLib\AbstractHardware\Atomic\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\..\CortexLib\Common\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\..\CortexLib\Common\Singleton\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\..\CortexLib\Common\RomObject\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\STM32F411\FieldValues\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\CortexM4\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\CortexM4\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\STM32F411\" -I
+#        "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\ColorSensorClasses\"
+#        -I "D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\CortexM4\FieldValues\"
+#        -On --c++ --no_exceptions --no_rtti)
+#    Locale       =  C
+#    List file    =
+#        D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Debug\List\ButtonTask.lst
+#    Object file  =
+#        D:\Cpecialno dlyf
+#        IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Debug\Obj\ButtonTask.o
+#
+###############################################################################
+
+D:\Cpecialno dlyf IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\AHardware\ColorSensorClasses\ButtonTask.cpp
+      1          #include "ButtonTask.hpp"
+Warning[Ms014]: some characters could not be correctly encoded in "D:\Cpecialno
+          dlyf
+          IAR\Kursach\RTOS-main\RTOS-main\RtosWrapper\Debug\List\ButtonTask.s",
+          and have been replaced with '@'. The first such character has unicode
+          code point 0x41f ("@")
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp OsWrapper::TicksPerSecond std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+   \                     _ZNSt6chrono13duration_castINS_8durationIjSt5ratioILx10ELx1000EEEExS2_ILx1ELx1000EEEENSt9enable_ifIXsr3std6chrono12_Is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZNKSt6chrono8durationIxSt5ratioILx1ELx1000EEE5countEv
+   \        0xA   0x220A             MOVS     R2,#+10
+   \        0xC   0x2300             MOVS     R3,#+0
+   \        0xE   0x....'....        BL       __aeabi_ldivmod
+   \       0x12   0x9001             STR      R0,[SP, #+4]
+   \       0x14   0xA901             ADD      R1,SP,#+4
+   \       0x16   0x4668             MOV      R0,SP
+   \       0x18   0x....'....        BL       _ZNSt6chrono8durationIjSt5ratioILx10ELx1000EEEC1IjvEERKT_
+   \       0x1C   0x9800             LDR      R0,[SP, #+0]
+   \       0x1E   0xBD16             POP      {R1,R2,R4,PC}    ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+   \                     _ZNSt6chrono8durationIjSt5ratioILx10ELx1000EEEC1IjvEERKT_: (+1)
+   \        0x0   0x680A             LDR      R2,[R1, #+0]
+   \        0x2   0x6002             STR      R2,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp __int64_t std::chrono::duration<__int64_t, std::milli>::count() const
+   \                     _ZNKSt6chrono8durationIxSt5ratioILx1ELx1000EEE5countEv: (+1)
+   \        0x0   0xE9D0 0x0100      LDRD     R0,R1,[R0, #+0]
+   \        0x4   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp uint32_t std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+   \                     _ZNKSt6chrono8durationIjSt5ratioILx10ELx1000EEE5countEv: (+1)
+   \        0x0   0x6800             LDR      R0,[R0, #+0]
+   \        0x2   0x4770             BX       LR               ;; return
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::system_clock::is_steady
+   \                     _ZNSt6chrono12system_clock9is_steadyE:
+   \        0x0   0x00               DC8 0
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::system_clock::is_monotonic
+   \                     _ZNSt6chrono12system_clock12is_monotonicE:
+   \        0x0   0x00               DC8 0
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::steady_clock::is_steady
+   \                     _ZNSt6chrono12steady_clock9is_steadyE:
+   \        0x0   0x01               DC8 1
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void OsWrapper::RtosWrapper::wSleep(uint32_t)
+   \                     _ZN9OsWrapper11RtosWrapper6wSleepEj: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       vTaskDelay
+   \        0xA   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 4
+   \   __interwork __vfp void OsWrapper::RtosWrapper::wSignalEvent(void * const &, uint32_t)
+   \                     _ZN9OsWrapper11RtosWrapper12wSignalEventERKPvj: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x2000             MOVS     R0,#+0
+   \        0x8   0x9000             STR      R0,[SP, #+0]
+   \        0xA   0x466B             MOV      R3,SP
+   \        0xC   0x002A             MOVS     R2,R5
+   \        0xE   0x6821             LDR      R1,[R4, #+0]
+   \       0x10   0x4808             LDR.N    R0,??wSignalEvent_0
+   \       0x12   0x....'....        BL       xTimerPendFunctionCallFromISR
+   \       0x16   0x2800             CMP      R0,#+0
+   \       0x18   0xD00A             BEQ.N    ??wSignalEvent_1
+   \       0x1A   0x9800             LDR      R0,[SP, #+0]
+   \       0x1C   0x2800             CMP      R0,#+0
+   \       0x1E   0xD007             BEQ.N    ??wSignalEvent_1
+   \       0x20   0xF05F 0x5080      MOVS     R0,#+268435456
+   \       0x24   0x4904             LDR.N    R1,??wSignalEvent_0+0x4  ;; 0xe000ed04
+   \       0x26   0x6008             STR      R0,[R1, #+0]
+   \       0x28   0xF3BF 0x8F4F      DSB      SY
+   \       0x2C   0xF3BF 0x8F6F      ISB      SY
+   \                     ??wSignalEvent_1: (+1)
+   \       0x30   0xBD31             POP      {R0,R4,R5,PC}    ;; return
+   \       0x32   0xBF00             Nop      
+   \                     ??wSignalEvent_0:
+   \       0x34   0x....'....        DC32     vEventGroupSetBitsCallback
+   \       0x38   0xE000'ED04        DC32     0xe000ed04
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::IThread::subobject IThread()
+   \                     _ZN9OsWrapper7IThreadC2Ev: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN9OsWrapper7IThreadC1Ev
+   \        0xA   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::IThread::IThread()
+   \                     _ZN9OsWrapper7IThreadC1Ev: (+1)
+   \        0x0   0x2100             MOVS     R1,#+0
+   \        0x2   0x6541             STR      R1,[R0, #+84]
+   \        0x4   0x2100             MOVS     R1,#+0
+   \        0x6   0x6581             STR      R1,[R0, #+88]
+   \        0x8   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+   \                     _ZN9OsWrapper7IThread5SleepENSt6chrono8durationIxSt5ratioILx1ELx1000EEEE: (+1)
+   \        0x0   0xB583             PUSH     {R0,R1,R7,LR}
+   \        0x2   0xB082             SUB      SP,SP,#+8
+   \        0x4   0xA802             ADD      R0,SP,#+8
+   \        0x6   0x....'....        BL       _ZNSt6chrono13duration_castINS_8durationIjSt5ratioILx10ELx1000EEEExS2_ILx1ELx1000EEEENSt9enable_ifIXsr3std6chrono12_Is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
+   \        0xA   0x9000             STR      R0,[SP, #+0]
+   \        0xC   0x4668             MOV      R0,SP
+   \        0xE   0x....'....        BL       _ZNKSt6chrono8durationIjSt5ratioILx10ELx1000EEE5countEv
+   \       0x12   0x....'....        BL       _ZN9OsWrapper11RtosWrapper6wSleepEj
+   \       0x16   0xB005             ADD      SP,SP,#+20
+   \       0x18   0xBD00             POP      {PC}             ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::Thread<128U>::subobject Thread()
+   \                     _ZN9OsWrapper6ThreadILj128EEC2Ev: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN9OsWrapper6ThreadILj128EEC1Ev
+   \        0xA   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp OsWrapper::Thread<128U>::Thread()
+   \                     _ZN9OsWrapper6ThreadILj128EEC1Ev: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN9OsWrapper7IThreadC2Ev
+   \        0xA   0x0020             MOVS     R0,R4
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp void OsWrapper::Event::Signal()
+   \                     _ZN9OsWrapper5Event6SignalEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x6A21             LDR      R1,[R4, #+32]
+   \        0x6   0x0020             MOVS     R0,R4
+   \        0x8   0x....'....        BL       _ZN9OsWrapper11RtosWrapper12wSignalEventERKPvj
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+      2          
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __code __interwork __vfp ButtonTask::subobject ButtonTask(IButton &, OsWrapper::Event &)
+   \                     _ZN10ButtonTaskC2ER7IButtonRN9OsWrapper5EventE: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN10ButtonTaskC1ER7IButtonRN9OsWrapper5EventE
+   \        0xA   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+      3          ButtonTask::ButtonTask(IButton& aButton, Event& ievent) : button(aButton), event(ievent)
+      4          {
+   \                     _ZN10ButtonTaskC1ER7IButtonRN9OsWrapper5EventE: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x0016             MOVS     R6,R2
+   \        0x8   0x0020             MOVS     R0,R4
+   \        0xA   0x....'....        BL       _ZN9OsWrapper6ThreadILj128EEC2Ev
+   \        0xE   0x....             LDR.N    R0,??DataTable2
+   \       0x10   0x6020             STR      R0,[R4, #+0]
+   \       0x12   0xF8C4 0x525C      STR      R5,[R4, #+604]
+   \       0x16   0xF8C4 0x6260      STR      R6,[R4, #+608]
+      5          }
+   \       0x1A   0x0020             MOVS     R0,R4
+   \       0x1C   0xBD70             POP      {R4-R6,PC}       ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+      6          void ButtonTask::Execute()
+      7          {
+   \                     _ZN10ButtonTask7ExecuteEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+      8            for(;;)
+      9            {
+     10              if(button.IsPressed())
+   \                     ??Execute_0: (+1)
+   \        0x4   0xF8D4 0x025C      LDR      R0,[R4, #+604]
+   \        0x8   0xF8D4 0x125C      LDR      R1,[R4, #+604]
+   \        0xC   0x6809             LDR      R1,[R1, #+0]
+   \        0xE   0x6809             LDR      R1,[R1, #+0]
+   \       0x10   0x4788             BLX      R1
+   \       0x12   0x2800             CMP      R0,#+0
+   \       0x14   0xD003             BEQ.N    ??Execute_1
+     11              {
+     12                event.Signal();
+   \       0x16   0xF8D4 0x0260      LDR      R0,[R4, #+608]
+   \       0x1A   0x....'....        BL       _ZN9OsWrapper5Event6SignalEv
+   \                     ??Execute_1: (+1)
+   \       0x1E   0x....             LDR.N    R2,??DataTable2_1
+   \       0x20   0xE9D2 0x0100      LDRD     R0,R1,[R2, #+0]
+     13              }
+     14               Sleep(300ms) ;
+   \       0x24   0x....'....        BL       _ZN9OsWrapper7IThread5SleepENSt6chrono8durationIxSt5ratioILx1ELx1000EEEE
+   \       0x28   0xE7EC             B.N      ??Execute_0
+     15            }
+     16          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \        0x0   0x....'....        DC32     _ZTV10ButtonTask+0x8
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .rodata, align 8
+   \                     ?_0:
+   \        0x0   0x0000'0000'0      DC64 300
+   \              000'012C     
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   ButtonTask::ButtonTask(IButton &, OsWrapper::Event &)
+        16   -> OsWrapper::Thread<128U>::subobject Thread()
+       8   ButtonTask::Execute()
+         8   -- Indirect call
+         8   -> OsWrapper::Event::Signal()
+         8   -> OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+       8   ButtonTask::subobject ButtonTask(IButton &, OsWrapper::Event &)
+         8   -> ButtonTask::ButtonTask(IButton &, OsWrapper::Event &)
+       8   OsWrapper::Event::Signal()
+         8   -> OsWrapper::RtosWrapper::wSignalEvent(void * const &, uint32_t)
+       0   OsWrapper::IThread::IThread()
+      24   OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+        24   -> OsWrapper::RtosWrapper::wSleep(uint32_t)
+        24   -> std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+        24   -> std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+       8   OsWrapper::IThread::subobject IThread()
+         8   -> OsWrapper::IThread::IThread()
+      16   OsWrapper::RtosWrapper::wSignalEvent(void * const &, uint32_t)
+        16   -> xTimerPendFunctionCallFromISR
+       8   OsWrapper::RtosWrapper::wSleep(uint32_t)
+         8   -> vTaskDelay
+       8   OsWrapper::Thread<128U>::Thread()
+         8   -> OsWrapper::IThread::subobject IThread()
+       8   OsWrapper::Thread<128U>::subobject Thread()
+         8   -> OsWrapper::Thread<128U>::Thread()
+       0   std::chrono::duration<__int64_t, std::milli>::count() const
+       0   std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+       0   std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+      16   std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+        16   -> std::chrono::duration<__int64_t, std::milli>::count() const
+        16   -> std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+        16 __aeabi_ldivmod
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       8  ?_0
+      30  ButtonTask::ButtonTask(IButton &, OsWrapper::Event &)
+      42  ButtonTask::Execute()
+      12  ButtonTask::subobject ButtonTask(IButton &, OsWrapper::Event &)
+      14  OsWrapper::Event::Signal()
+      10  OsWrapper::IThread::IThread()
+      26  OsWrapper::IThread::Sleep(std::chrono::milliseconds)
+      12  OsWrapper::IThread::subobject IThread()
+      60  OsWrapper::RtosWrapper::wSignalEvent(void * const &, uint32_t)
+      12  OsWrapper::RtosWrapper::wSleep(uint32_t)
+      14  OsWrapper::Thread<128U>::Thread()
+      12  OsWrapper::Thread<128U>::subobject Thread()
+       6  std::chrono::duration<__int64_t, std::milli>::count() const
+       4  std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::count() const
+       6  std::chrono::duration<uint32_t, std::ratio<10LL, 1000LL>>::duration<uint32_t, void>(uint32_t const &)
+      32  std::chrono::duration_cast<OsWrapper::TicksPerSecond, __int64_t, std::milli>(std::chrono::duration<__int64_t, std::milli> const &)
+       1  std::chrono::steady_clock::is_steady
+       1  std::chrono::system_clock::is_monotonic
+       1  std::chrono::system_clock::is_steady
+     156  -- Other
+
+ 
+ 167 bytes in section .rodata
+ 300 bytes in section .text
+ 
+ 92 bytes of CODE  memory (+ 208 bytes shared)
+  8 bytes of CONST memory (+ 159 bytes shared)
+
+Errors: none
+Warnings: 1

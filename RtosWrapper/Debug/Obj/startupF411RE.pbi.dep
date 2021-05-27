@@ -1,0 +1,15 @@
+startupF411RE.pbi: \
+  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\startupF411RE.cpp \
+  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper/AHardware/IrqController/irqcontroller.hpp \
+  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper/Rtos/wrapper/rtos.hpp \
+  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\wrapper/thread.hpp \
+  D:\Проги\ для\ учебы\arm\inc\cpp\array \
+  D:\Проги\ для\ учебы\arm\inc\cpp\algorithm \
+  D:\Проги\ для\ учебы\arm\inc\cpp\xmemory \
+  D:\Проги\ для\ учебы\arm\inc\cpp\xmemory0 \
+  D:\Проги\ для\ учебы\arm\inc\cpp\cstdint \
+  D:\Проги\ для\ учебы\arm\inc\c\stdint.h \
+  D:\Проги\ для\ учебы\arm\inc\c\ycheck.h \
+  D:\Проги\ для\ учебы\arm\inc\c\yvals.h \
+  D:\Проги\ для\ учебы\arm\inc\c\DLib_Defaults.h \
+  D:\Проги\ для\ учебы\arm\inc\c\DLib_Product.h

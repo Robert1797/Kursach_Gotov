@@ -1,0 +1,15 @@
+irqcontroller.pbi: \
+  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\AHardware\IrqController\irqcontroller.cpp \
+  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\AHardware\IrqController/irqcontroller.hpp \
+  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\AHardware\ColorSensorClasses\Timer2.h \
+  D:\Проги\ для\ учебы\arm\inc\cpp\iostream \
+  D:\Проги\ для\ учебы\arm\inc\cpp\istream \
+  D:\Проги\ для\ учебы\arm\inc\cpp\ostream \
+  D:\Проги\ для\ учебы\arm\inc\cpp\ios \
+  D:\Проги\ для\ учебы\arm\inc\cpp\xlocnum \
+  D:\Проги\ для\ учебы\arm\inc\cpp\climits \
+  D:\Проги\ для\ учебы\arm\inc\c\limits.h \
+  D:\Проги\ для\ учебы\arm\inc\c\ycheck.h \
+  D:\Проги\ для\ учебы\arm\inc\c\yvals.h \
+  D:\Проги\ для\ учебы\arm\inc\c\DLib_Defaults.h \
+  D:\Проги\ для\ учебы\arm\inc\c\DLib_Product.h

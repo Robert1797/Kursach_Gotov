@@ -2692,12 +2692,12 @@ Marking from fragment #3884 .text (114 main.o) init:always
     Marking fragment #781 .text (222 main.o) init:always
   Marking symbol _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj24ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj1EE3SetIS3_vEEvv Glb (1341 main.o)
     Marking fragment #783 .text (224 main.o) init:always
-  Marking symbol _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj26ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj0EE3SetIS3_vEEvv Glb (1342 main.o)
-    Marking fragment #785 .text (226 main.o) init:always
   Marking symbol _ZN14FieldValueBaseI22GPIOC_BSRR_BS11_ValuesIN5GPIOC4BSRRELj11ELj1E9WriteModeNS1_13GPIOCBSRRBaseEES4_Lj1EE5WriteIS3_vEEvv Glb (1319 main.o)
     Marking fragment #839 .text (280 main.o) init:always
   Marking symbol _ZN14FieldValueBaseI22GPIOC_BSRR_BS10_ValuesIN5GPIOC4BSRRELj10ELj1E9WriteModeNS1_13GPIOCBSRRBaseEES4_Lj1EE5WriteIS3_vEEvv Glb (1318 main.o)
     Marking fragment #841 .text (282 main.o) init:always
+  Marking symbol _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj26ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj0EE3SetIS3_vEEvv Glb (1342 main.o)
+    Marking fragment #785 .text (226 main.o) init:always
   Marking symbol _ZN14FieldValueBaseI26GPIOA_MODER_MODER15_ValuesIN5GPIOA5MODERELj4ELj2E13ReadWriteModeNS1_14GPIOAMODERBaseEES4_Lj2EE3SetIS3_vEEvv Glb (1335 main.o)
     Marking fragment #787 .text (228 main.o) init:always
   Marking symbol _ZN14FieldValueBaseI26GPIOA_MODER_MODER15_ValuesIN5GPIOA5MODERELj6ELj2E13ReadWriteModeNS1_14GPIOAMODERBaseEES4_Lj2EE3SetIS3_vEEvv Glb (1336 main.o)
@@ -2788,9 +2788,9 @@ Marking from fragment #793 .text (234 main.o) init:always
 Marking from fragment #791 .text (232 main.o) init:always
 Marking from fragment #789 .text (230 main.o) init:always
 Marking from fragment #787 .text (228 main.o) init:always
+Marking from fragment #785 .text (226 main.o) init:always
 Marking from fragment #841 .text (282 main.o) init:always
 Marking from fragment #839 .text (280 main.o) init:always
-Marking from fragment #785 .text (226 main.o) init:always
 Marking from fragment #783 .text (224 main.o) init:always
 Marking from fragment #781 .text (222 main.o) init:always
 Marking from fragment #779 .text (220 main.o) init:always
@@ -10941,11 +10941,11 @@ Marking from fragment #1301 .debug_info (818 main.o)
   Marking symbol .iar.debug_line816                   (1025 main.o)
   Marking symbol .debug_info7                         (708 main.o)
   Marking symbol .debug_info7                         (708 main.o)
-  Marking symbol .debug_loc1177                       (1023 main.o)
-    Marking fragment #1601 .debug_loc (1177 main.o)
+  Marking symbol .debug_loc1176                       (1023 main.o)
+    Marking fragment #1600 .debug_loc (1176 main.o)
   Marking symbol .text282                             (455 main.o)
   Marking symbol .text282                             (455 main.o)
-Marking from fragment #1601 .debug_loc (1177 main.o)
+Marking from fragment #1600 .debug_loc (1176 main.o)
 Marking from fragment #1300 .debug_line (817 main.o)
   Marking symbol .text282                             (455 main.o)
 Marking from fragment #1299 .iar.debug_line (816 main.o)
@@ -10961,11 +10961,11 @@ Marking from fragment #1297 .debug_info (813 main.o)
   Marking symbol .iar.debug_line811                   (1021 main.o)
   Marking symbol .debug_info7                         (708 main.o)
   Marking symbol .debug_info7                         (708 main.o)
-  Marking symbol .debug_loc1176                       (1019 main.o)
-    Marking fragment #1600 .debug_loc (1176 main.o)
+  Marking symbol .debug_loc1175                       (1019 main.o)
+    Marking fragment #1599 .debug_loc (1175 main.o)
   Marking symbol .text280                             (451 main.o)
   Marking symbol .text280                             (451 main.o)
-Marking from fragment #1600 .debug_loc (1176 main.o)
+Marking from fragment #1599 .debug_loc (1175 main.o)
 Marking from fragment #1296 .debug_line (812 main.o)
   Marking symbol .text280                             (451 main.o)
 Marking from fragment #1295 .iar.debug_line (811 main.o)
@@ -11553,13 +11553,13 @@ Marking from fragment #1189 .debug_info (678 main.o)
   Marking symbol .iar.debug_line676                   (913 main.o)
   Marking symbol .debug_info7                         (708 main.o)
   Marking symbol .debug_info7                         (708 main.o)
-  Marking symbol .debug_loc1175                       (911 main.o)
-    Marking fragment #1599 .debug_loc (1175 main.o)
+  Marking symbol .debug_loc1177                       (911 main.o)
+    Marking fragment #1601 .debug_loc (1177 main.o)
   Marking symbol .text226                             (345 main.o)
   Marking symbol .text226                             (345 main.o)
   Marking symbol .debug_info7                         (708 main.o)
-  Marking symbol .debug_loc1175                       (911 main.o)
-Marking from fragment #1599 .debug_loc (1175 main.o)
+  Marking symbol .debug_loc1177                       (911 main.o)
+Marking from fragment #1601 .debug_loc (1177 main.o)
 Marking from fragment #1188 .debug_line (677 main.o)
   Marking symbol .text226                             (345 main.o)
 Marking from fragment #1187 .iar.debug_line (676 main.o)
@@ -12669,9 +12669,9 @@ Marking from fragment #1003 .iar.debug_line (446 main.o)
   Marking symbol _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj20ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj1EE3SetIS3_vEEvv Glb (1339 main.o)
   Marking symbol _ZN14FieldValueBaseI26GPIOD_MODER_MODER15_ValuesIN5GPIOD5MODERELj4ELj2E13ReadWriteModeNS1_14GPIODMODERBaseEES4_Lj1EE3SetIS3_vEEvv Glb (1343 main.o)
   Marking symbol _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj24ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj1EE3SetIS3_vEEvv Glb (1341 main.o)
-  Marking symbol _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj26ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj0EE3SetIS3_vEEvv Glb (1342 main.o)
   Marking symbol _ZN14FieldValueBaseI22GPIOC_BSRR_BS11_ValuesIN5GPIOC4BSRRELj11ELj1E9WriteModeNS1_13GPIOCBSRRBaseEES4_Lj1EE5WriteIS3_vEEvv Glb (1319 main.o)
   Marking symbol _ZN14FieldValueBaseI22GPIOC_BSRR_BS10_ValuesIN5GPIOC4BSRRELj10ELj1E9WriteModeNS1_13GPIOCBSRRBaseEES4_Lj1EE5WriteIS3_vEEvv Glb (1318 main.o)
+  Marking symbol _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj26ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj0EE3SetIS3_vEEvv Glb (1342 main.o)
   Marking symbol _ZN14FieldValueBaseI26GPIOA_MODER_MODER15_ValuesIN5GPIOA5MODERELj4ELj2E13ReadWriteModeNS1_14GPIOAMODERBaseEES4_Lj2EE3SetIS3_vEEvv Glb (1335 main.o)
   Marking symbol _ZN14FieldValueBaseI26GPIOA_MODER_MODER15_ValuesIN5GPIOA5MODERELj6ELj2E13ReadWriteModeNS1_14GPIOAMODERBaseEES4_Lj2EE3SetIS3_vEEvv Glb (1336 main.o)
   Marking symbol _ZN14FieldValueBaseI23GPIOA_AFRL_AFRL7_ValuesIN5GPIOA4AFRLELj8ELj4E13ReadWriteModeNS1_13GPIOAAFRLBaseEES4_Lj7EE3SetIS3_vEEvv Glb (1327 main.o)

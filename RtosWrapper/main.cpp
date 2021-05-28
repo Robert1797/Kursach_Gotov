@@ -54,10 +54,10 @@ int __low_level_init(void)
     GPIOD::MODER::MODER2::Output::Set();    // S2 на выход
     GPIOC::MODER::MODER12::Output::Set();    // S3 на выход
     
-    GPIOC::MODER::MODER13::Input::Set();    // кнопка
-    
     GPIOC::BSRR::BS11::High::Write();    // S0 на 1
     GPIOC::BSRR::BS10::High::Write();    // S1 на 0
+    
+    GPIOC::MODER::MODER13::Input::Set();    // кнопка
     
     GPIOA::MODER::MODER2::Alternate::Set(); // TX
     GPIOA::MODER::MODER3::Alternate::Set(); //RX

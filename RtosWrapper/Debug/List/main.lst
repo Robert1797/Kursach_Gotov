@@ -1,13 +1,13 @@
 ###############################################################################
 #
-# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         27/May/2021  21:47:26
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         28/May/2021  11:56:34
 # Copyright 1999-2019 IAR Systems AB.
 #
 #    Cpu mode     =  
 #    Endian       =  little
 #    Source file  =  D:\Cpecialno dlyf IAR\Kursach_Gotov\RtosWrapper\main.cpp
 #    Command line =
-#        -f C:\Users\kadyr\AppData\Local\Temp\EWACD6.tmp ("D:\Cpecialno dlyf
+#        -f C:\Users\kadyr\AppData\Local\Temp\EWE05.tmp ("D:\Cpecialno dlyf
 #        IAR\Kursach_Gotov\RtosWrapper\main.cpp" -lC "D:\Cpecialno dlyf
 #        IAR\Kursach_Gotov\RtosWrapper\Debug\List" -lA "D:\Cpecialno dlyf
 #        IAR\Kursach_Gotov\RtosWrapper\Debug\List" -o "D:\Cpecialno dlyf
@@ -2012,13 +2012,13 @@ Warning[Ms014]: some characters could not be correctly encoded in "D:\Cpecialno
      55              GPIOC::MODER::MODER12::Output::Set();    // S3 на выход
    \       0x36   0x....'....        BL       _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj24ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj1EE3SetIS3_vEEvv
      56              
-     57              GPIOC::MODER::MODER13::Input::Set();    // кнопка
-   \       0x3A   0x....'....        BL       _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj26ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj0EE3SetIS3_vEEvv
-     58              
-     59              GPIOC::BSRR::BS11::High::Write();    // S0 на 1
-   \       0x3E   0x....'....        BL       _ZN14FieldValueBaseI22GPIOC_BSRR_BS11_ValuesIN5GPIOC4BSRRELj11ELj1E9WriteModeNS1_13GPIOCBSRRBaseEES4_Lj1EE5WriteIS3_vEEvv
-     60              GPIOC::BSRR::BS10::High::Write();    // S1 на 0
-   \       0x42   0x....'....        BL       _ZN14FieldValueBaseI22GPIOC_BSRR_BS10_ValuesIN5GPIOC4BSRRELj10ELj1E9WriteModeNS1_13GPIOCBSRRBaseEES4_Lj1EE5WriteIS3_vEEvv
+     57              GPIOC::BSRR::BS11::High::Write();    // S0 на 1
+   \       0x3A   0x....'....        BL       _ZN14FieldValueBaseI22GPIOC_BSRR_BS11_ValuesIN5GPIOC4BSRRELj11ELj1E9WriteModeNS1_13GPIOCBSRRBaseEES4_Lj1EE5WriteIS3_vEEvv
+     58              GPIOC::BSRR::BS10::High::Write();    // S1 на 0
+   \       0x3E   0x....'....        BL       _ZN14FieldValueBaseI22GPIOC_BSRR_BS10_ValuesIN5GPIOC4BSRRELj10ELj1E9WriteModeNS1_13GPIOCBSRRBaseEES4_Lj1EE5WriteIS3_vEEvv
+     59              
+     60              GPIOC::MODER::MODER13::Input::Set();    // кнопка
+   \       0x42   0x....'....        BL       _ZN14FieldValueBaseI26GPIOC_MODER_MODER15_ValuesIN5GPIOC5MODERELj26ELj2E13ReadWriteModeNS1_14GPIOCMODERBaseEES4_Lj0EE3SetIS3_vEEvv
      61              
      62              GPIOA::MODER::MODER2::Alternate::Set(); // TX
    \       0x46   0x....'....        BL       _ZN14FieldValueBaseI26GPIOA_MODER_MODER15_ValuesIN5GPIOA5MODERELj4ELj2E13ReadWriteModeNS1_14GPIOAMODERBaseEES4_Lj2EE3SetIS3_vEEvv

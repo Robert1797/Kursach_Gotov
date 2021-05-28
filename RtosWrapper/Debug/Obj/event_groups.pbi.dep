@@ -1,25 +1,7 @@
 event_groups.pbi: \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\event_groups.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\timers.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\list.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\task.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\mpu_wrappers.h \
-  D:\Проги\ для\ учебы\arm\inc\c\iar_intrinsics_common.h \
-  D:\Проги\ для\ учебы\arm\inc\c\iccarm_builtin.h \
-  D:\Проги\ для\ учебы\arm\inc\c\intrinsics.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portmacro.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\deprecated_definitions.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\portable.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\projdefs.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\..\FreeRTOSConfig.h \
-  D:\Проги\ для\ учебы\arm\inc\c\ycheck.h \
-  D:\Проги\ для\ учебы\arm\inc\c\stdint.h \
-  D:\Проги\ для\ учебы\arm\inc\c\stddef.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\include\FreeRTOS.h \
-  D:\Проги\ для\ учебы\arm\inc\c\DLib_Product_stdlib.h \
-  D:\Проги\ для\ учебы\arm\inc\c\ysizet.h \
-  D:\Проги\ для\ учебы\arm\inc\c\DLib_Product.h \
-  D:\Проги\ для\ учебы\arm\inc\c\DLib_Defaults.h \
-  D:\Проги\ для\ учебы\arm\inc\c\yvals.h \
+  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\event_groups.c \
   D:\Проги\ для\ учебы\arm\inc\c\stdlib.h \
-  D:\Cpecialno\ dlyf\ IAR\Kursach_Gotov\RtosWrapper\Rtos\FreeRtos\event_groups.c
+  D:\Проги\ для\ учебы\arm\inc\c\ycheck.h \
+  D:\Проги\ для\ учебы\arm\inc\c\yvals.h \
+  D:\Проги\ для\ учебы\arm\inc\c\DLib_Defaults.h \
+  D:\Проги\ для\ учебы\arm\inc\c\DLib_Product.h
